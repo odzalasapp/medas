@@ -2,11 +2,11 @@
 
 # **「 MASTER MEDAS 」**
 
-## 「 OPEN SOURCE PROJECTS 」
+## OPEN SOURCE PROJECTS
 
 * [Approches spatiales et temporelles des données](/projets/approches_spatiales)
 
-## 「 SITES WEBS 」
+## SITES WEBS
 
 * <a href="https://princeodzalasapp.github.com/" target="_blank">Projet Approches spatiales</a>
 
