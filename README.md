@@ -1,6 +1,6 @@
-# **「 MASTER MEDAS 」**
-
 ![alt text](./projets/approches_spatiales/images/cnam.png)
+
+# **「 MASTER MEDAS 」**
 
 ## 「 OPEN SOURCE PROJECTS 」
 
