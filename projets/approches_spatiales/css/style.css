@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,300i,400,400i|Fira+Mono');
+
+/* Font Style */
+
+.book.font-family-1,
+.book .book-header,
+.book .book-summary {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1,
+.book .book-body .page-wrapper .page-inner section.normal h2,
+.book .book-body .page-wrapper .page-inner section.normal h3,
+.book .book-body .page-wrapper .page-inner section.normal h4 {
+  font-family: "Roboto Slab", "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre,
+.book .book-body .page-wrapper .page-inner section.normal code,
+.book .book-body .page-wrapper .page-inner section.normal pre > code {
+  font-family: 'Fira Mono', 'Andale Mono',monospace;
+  font-size: .95em;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p > code,
+.book .book-body .page-wrapper .page-inner section.normal ul code {
+  padding: 2px 1px;
+  font-size: 85%;
+  color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+  font-family: Monaco, 'Fira Mono','Andale Mono',monospace;
+}
+
+/* Titre */
+
+.book .book-body .page-wrapper .page-inner section.normal h1.title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1 .header-section-number {
+  display: block;
+  font-size: 0.8em;
+}
+
+/* Auteurs & Date */
+
+.book .book-body .page-wrapper .page-inner section.normal .author,
+.book .book-body .page-wrapper .page-inner section.normal .date {
+  text-align: center;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .date {
+  font-size: 1.1em;
+  margin-top: 0;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  line-height: 1.5;
+}
+
+/* Sidebar */
+
+.book .book-header {
+  font-weight: normal;
+}
+
+.book .book-summary{
+	position:absolute;
+	top:0;
+	width:300px;
+	left:-300px;
+	bottom:0;
+	z-index:1;
+	color:#364149;
+	background:#fafafa;
+	font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+	border-right:1px solid rgba(0,0,0,0);
+	-webkit-transition:left 250ms ease;
+	-moz-transition:left 250ms ease;
+	-o-transition:left 250ms ease;
+	transition:left 250ms ease
+}
+
+.book .book-summary ul.summary{
+  font-weight: normal;
+	position:absolute;
+	transition:top .5s ease
+}
+
+.book .book-summary li {
+  font-size: 1.3em;
+}
+
+.book .book-summary ul.summary li a, 
+.book .book-summary ul.summary li span {
+  padding: 7px 15px;  
+}
+
+.book .book-summary ul.summary li a b {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.book .book-summary ul.summary li:hover>a{
+	color:#bd212f;
+}
+
+.book .book-summary ul.summary > li:first-child  a {
+  text-align: center;
+  padding: 0 15px;
+  font-weight: bold;
+  color:#fff;
+  background:#bd212f;
+  display:block;
+  height:50px;
+  border-bottom:none;
+  line-height:50px;
+  -webkit-box-shadow:none!important;
+  box-shadow:none!important;
+  position:relative;
+  font-size:14px
+}
+
+.book .book-summary ul.summary > li:first-child  a:hover {
+  color:#fff;
+}
+
+.book .book-summary ul.summary li.active>a{
+	color:#fff;
+	background:#bd212f;
+	font-weight: bold;
+	text-decoration:none;
+	box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24)!important;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+	margin: 5px 10px 5px 10px;
+}
+
+.book .book-summary ul.summary li.active:hover>a{
+	color: rgba(255,255,255,.9);
+}
+
+.book .book-summary ul.summary li.part span,
+.book .book-summary ul.summary li.appendix span {
+  opacity: 0.9;
+}
+
+.book .book-summary ul.summary li.part span b,
+.book .book-summary ul.summary li.appendix span b {
+  font-weight: normal; 
+  color: #bd212f;
+}
+
+.book .book-summary ul.summary li ul li.chapter a{
+	font-size: 1.3em;
+	font-weight: normal; 
+}
+
+.book .book-summary .book-header.fixed {
+  font-size: 1.3em;
+}
+
+.book .book-summary ul.summary li.divider{
+	height:1px;
+	margin: 0;
+	overflow:hidden;
+	background:rgba(0,0,0,.07)
+}
+
+/**
+padding: t r b l
+*/
