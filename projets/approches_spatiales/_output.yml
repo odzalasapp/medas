@@ -1,0 +1,36 @@
+bookdown::gitbook:
+  highlight: kate
+  css: [css/bootstrap.css, css/bootstrap-grid.css, css/bootstrap-reboot.css, css/style.css]
+  df_print: tibble
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./index.html">M1 MEDAS CNAM Nantes 2019-2021</a></li>
+      after: |
+        <center><a href="https://github.com/princeodzalasapp">Prince ODZALAMBAE & Elhadji SOW</a></center>
+    download: [["files/ODZALAMBAE-SOW-2020-USID06-medas.pdf", "PDF"], ["files/ODZALAMBAE-SOW-2020-USID06-medas.epub", "EPUB"]]
+    sharing:
+      github: yes
+      twitter: no
+      facebook: no
+    info: no
+bookdown::html_book:
+  toc: yes
+  split_by: chapter
+  css: [css/bootstrap.css, css/bootstrap-grid.css, css/bootstrap-reboot.css, css/style.css]
+bookdown::pdf_book:
+  includes:
+    in_header: latex/styles.sty
+    before_body: latex/before_body.sty
+    #after_body: latex/after_body.sty
+  keep_tex: yes
+  template: null
+  fig_caption: yes
+  fig_height: 3.5
+  fig_width: 4
+  df_print: kable
+  number_sections: yes
+  toc: yes
+bookdown::epub_book:
+  stylesheet: css/style.css

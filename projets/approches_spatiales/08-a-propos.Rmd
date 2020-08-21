@@ -1,0 +1,42 @@
+# A propos de ce document {-}
+
+## Code source {-}
+
+Ce projet est open source, vous pouvez acceder au code source sur Github à l'adresse suivante : https://github.com/princeodzalasapp/medas/tree/master/projets/approches_spatiales
+
+Le code source est généré par l’extension [bookdown](https://bookdown.org/yihui/bookdown/) de [Yihui Xie](https://yihui.name/en/).
+
+## Licence {-}
+
+Ce document est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International</a>.
+
+<center>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
+</center>
+
+
+## Session info {-}
+
+
+```{r session_info,echo = F}
+devtools::session_info()$platform
+```
+
+
+## Packages {-}
+
+```{r liste_Packages,echo = F}
+package <- devtools::session_info()$packages %>% as_tibble() %>% 
+  filter(attached == T,is_base == F,package != "COGiter") %>% 
+  select(package,ondiskversion,source)
+knitr::kable(package) %>% kableExtra::kable_styling()
+```
+
+## Références {-}
+
+1. [@R-rmarkdown]
+2. [@R-base]
+3. [@xie2015]
+4. [@R-knitr]
+5. [@R-bookdown]
+

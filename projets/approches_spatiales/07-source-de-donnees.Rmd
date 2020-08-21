@@ -1,0 +1,66 @@
+\newpage
+
+# Source de données {-}
+
+
+Voici la liste des fichiers externes utilisés dans ce projet.
+
+## Mixité sociale, diversité sociale : des concepts à la pratique
+
+Les notions de mixité et de diversité sociales
+sont défi nies par la loi. Elles fi xent un cadre
+pour l’action des organismes Hlm : l’objectif de
+diversité de l’habitat résulte de l’article 16 de la
+loi d’orientation pour la ville de 1991 et l’objectif
+de mixité sociale des villes et des quartiers est
+inscrit dans la loi de lutte contre les exclusions
+de 1998 et dans le CCH à l’article L411(1).
+Bien qu’actées par la loi, la diversité et la mixité
+sociales restent des notions diffi ciles à défi nir.
+Loin de se réduire à la seule dimension de
+l’habitat, elles renvoient à la dimension urbaine
+et notamment aux questions de transports, de
+services et d’école. Leur promotion exige des
+engagements importants pour aller à l’encontre
+de la tendance des marchés à la ségrégation
+territoriale et au souhait de « l’entre-soi ».
+La mixité sociale doit fonctionner comme
+une ligne directrice permanente de l’action
+locale. Elle renvoie à la question de l’équilibre
+permettant la cohésion sociale et le vivre
+ensemble, mais aussi à l’égalité des chances.
+La Halde défi nit la diversité sociale de manière
+large : elle doit être entendue « en termes de
+niveaux de revenu et d’éducation, mais aussi en
+termes d’origines géographiques, culturelles,
+ethniques, d’âge, de compositions familiales,
+d’apparence ou de condition physique »(2).
+S’il est impossible, et sans doute vain, de
+chercher à déterminer le « bon degré » de mixité
+ou de diversité pour que ces personnes ou
+groupes coexistent harmonieusement, nous
+connaissons les effets de l’absence de mixité
+sociale et ses conséquences.
+D’une façon générale, la réalisation de logements
+sociaux nouveaux est une solution pour
+permettre de satisfaire une pluralité d’impératifs.
+Elle représente un enjeu pour les politiques de
+l’habitat : davantage de logements sociaux, bien
+répartis sur le territoire des agglomérations pour
+y accueillir différentes catégories de ménages,
+dont les jeunes et les classes moyennes, ne
+pouvant se loger de façon satisfaisante dans
+les conditions du marché. Mais également plus
+de logements pour accueillir les personnes
+défavorisées dans une situation de mixité sociale
+des villes et des quartiers.
+
+
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(sommaire). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methodes).
+
+https://www.metropolitiques.eu/Logement-social-et-application-de-la-loi-SRU-la-lettre-plutot-que-l-esprit.html
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+

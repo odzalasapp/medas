@@ -1,0 +1,10 @@
+book_filename: "ODZALAMBAE-SOW-2020-USID06-medas.Rmd"
+output_dir: "src"
+clean: ["latex/packages.bib", "bookdown.bbl"]
+delete_merged_file: true
+language:
+  label:
+    fig: "FIGURE "
+    tab: "TABLE "
+  ui:
+    chapter_name: "Châpitre "

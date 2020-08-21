@@ -1,0 +1,92 @@
+--- 
+title: "Projet Approches spatiales et temporelles des données"
+author: "Prince ODZALAMBAE & Elhadji SOW"
+date: "`r format(Sys.time(), '%A, %d %B %Y')`"
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+lang: fr
+bibliography: [latex/book.bib, latex/packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Projet relatif au module Approches spatiales et temporelles des données M1 Mégadonnées et Analyse sociale du CNAM de Nantes."
+---
+
+\newpage
+
+# Présentation {-}
+
+- **Problématique**
+
+`r if (knitr::is_html_output()) '
+<div class="alert alert-danger">
+'`
+La problématique de notre sujet est de savoir si la construction de logement sociaux sur les communes du département ces dernières années contribue ou pas à la mixité sociale.
+`r if (knitr::is_html_output()) '
+</div>
+'`
+
+
+- **Objectif**
+
+`r if (knitr::is_html_output()) '
+<div class="alert alert-success">
+'`
+L’objectif de ce projet est de répondre à la problématique en fournissant une vue générale montrant l’implantation géographique du logement social et une  une analyse approfondie sur le département de la Loire-Atlantique.
+`r if (knitr::is_html_output()) '
+</div>
+'`
+
+- **Réalisation**
+
+Ce projet a été réalisé uniquement sur **R Studio**. Nous avons créé un projet **R Markdown** avec l'extension **bookdown** et une application **Shiny**, affin de pouvoir intégrer sous forme de slide des traitements effectués avec R, tout en favorisant la reproductibilité des calculs et la génération du rapport dans le format souhaiter **HTML, PDF, EBUP**.
+
+
+```{r setup, eval=T,echo=F,message=F,warning=F}
+knitr::opts_chunk$set(fig.path="figures/", cache=T,echo=T,comment="",message=F,warning = F)
+
+# Installation des packages si nécessaire avec Pacman
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(
+  bookdown, 
+  tinytex,
+  knitr,
+  kableExtra,
+  ggplot2,
+  tidyverse,
+  dygraphs,
+  DT,
+  stringr,
+  sf,
+  tmap,
+  viridis,
+  scales,
+  tmaptools,
+  leaflet,
+  cowplot,
+  glue,
+  htmlwidgets,
+  rmapshaper,
+  patchwork,
+  cartogram,
+  ggspatial,
+  lwgeom,
+  data.table,
+  dplyr,
+  ggmap,
+  mapview
+)
+
+# Paramètres Tmap
+theme_set(theme_gray())
+tmap_mode("plot")
+
+# Repertoire des fichiers
+Filosofi2015_carreaux_200m_metropole = 'extdata/Filosofi2015_carreaux_200m_metropole_csv/Filosofi2015_carreaux_200m_metropole.csv'
+Filosofi2015_carreaux_200m_metropole_shp = 'extdata/Filosofi2015_carreaux_200m_metropole_shp/Filosofi2015_carreaux_200m_metropole.shp'
+
+# Fonctions Utils
+source('R/fonctionS_utils.R')
+
+
+
+```

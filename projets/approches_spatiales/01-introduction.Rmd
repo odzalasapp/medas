@@ -1,0 +1,38 @@
+\newpage
+
+# Introduction
+
+Depuis une dizaine d’années, en France comme au Québec, la fixation de taux minimum de logements sociaux (par commune en France et par opération immobilière au Québec) est devenue l’un des principaux instruments des pouvoirs publics pour favoriser le développement du parc social, dans un contexte de baisse des financements gouvernementaux dédiés à la construction (Kamoun, 2005; Driant, 2010; Laberge et Montmarquette, 2010) mais aussi d’injonction croissante à la mixité sociale (Palomares, 2008; Kirszbaum, 2008)
+
+En France, après de longs et tumultueux débats, la loi relative à la solidarité et au renouvellement urbain (sru) du 13 décembre 2000 a rendu obligatoire la présence d’un minimum de 20% de logements sociaux dans toutes les communes d’au moins 3 500 habitants (1 500 en Île-de-France). La récente loi du 24 mars 2014 pour l’accès au logement et un urbanisme rénové (Alur) a élevé ce seuil à 25%.
+
+Ce document comportera les parties suivantes :
+
+ Pour cela, nous vous présentera un tableau de board composée de graphiques.
+L’objectif est de fournir une vue générale (composée de graphiques de données) montrant l’implantation géographique du logement social sur le territoire.
+
+
+
+Description du corpus, traitement des données (décrire les étapes du processus de traitement et intégrer le code correspondant), les choix des typologies visuelles et des outils employés sont à expliciter.
+
+Activation des packages
+Récupération des données
+Datapréparation
+On tronque filtre sur les données de ventes de maisons en filtrant les données à 98% pour lisser les moyennes
+Calcul de l’évolution des prix et du nombre de ventes
+A l’epci
+A la commune
+
+Intégration des données aux fonds de carte
+Datavisualisation
+Carte à l’EPCI de la région
+zoom à la commune
+
+
+Présentation des visualisations de données réalisées (légendes apportant des précisions), tableaux de bords.
+
+
+Interprétation, confrontation de vos objectifs de départ avec les résultats obtenus.
+
+
+Analyse critique et retour sur le travail réalisé. Qu’avez-vous découvert de plus ? Que pourriez-vous améliorer ?

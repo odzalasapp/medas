@@ -1,0 +1,11 @@
+\newpage
+
+# (PART) Objectifs {-}
+
+# Objectifs
+
+Here is a review of existing methods.
+
+`r if (knitr::is_latex_output()) '
+
+'`
