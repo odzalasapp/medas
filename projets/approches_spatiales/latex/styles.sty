@@ -1,0 +1,70 @@
+
+%encoding
+%--------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%--------------------------------------
+ 
+%French-specific commands
+%--------------------------------------
+\usepackage[autolanguage]{numprint}
+%--------------------------------------
+ 
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+
+%Style page
+%--------------------------------------
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{sectsty}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+	linkcolor=black,
+	urlcolor = {red},
+    linkbordercolor = {white}
+}
+
+\usepackage[left=25mm,top=30mm,right=25mm,bottom=30mm,bindingoffset=6mm]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+ 
+\fancyhf{}
+\lhead{USID06 - Approches spatiales et temporelles des données}
+\rhead{M1 MEDAS}
+\lfoot{CNAM Nantes}
+\rfoot{Page \thepage}
+
+\usepackage{framed,color}
+\definecolor{shadecolor}{RGB}{248,248,248}
+
+%Supprime le titre du Rmarkdown
+%--------------------------------------
+\AtBeginDocument{\let\maketitle\relax}
+
+
